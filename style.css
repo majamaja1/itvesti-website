@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  width: 105px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+li:hover {
+  background-color: #00a5d3;
+}
+
+ul.container {
+  padding: 0;
+}
+
+ul li:not(:last-child) {
+  border-right: 1px solid #00a5d3;
+}
+
+#logo-container {
+  background-color: #192034;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  width: 990px;
+  margin: auto;
+  padding: 30px 0;
+  color: #fff;
+  max-width: 100%;
+}
+nav {
+  background-color: #01c0f4;
+}
+
+.highlighted-news {
+  display: flex;
+  color: #000;
+  height: 500px;
+}
+
+.new-left {
+  flex: 2;
+  position: relative;
+  display: inline-block;
+  background-image: url("https://www.bigstockphoto.com/images/homepage/module-6.jpg");
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.new-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-top {
+  position: relative;
+  display: inline-block;
+  background-image: url("https://www.bigstockphoto.com/images/homepage/module-6.jpg");
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+}
+
+.new-top:first-child {
+  margin-bottom: 5px;
+}
+
+.new-top:last-child {
+  margin-top: 5px;
+}
+
+.naslov1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.naslov {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 0;
+  font-size: 45px;
+}
