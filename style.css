@@ -23,7 +23,7 @@ ul.container {
   padding: 0;
 }
 
-ul li:not(:last-child) {
+.nav-bar li:not(:last-child) {
   border-right: 1px solid #00a5d3;
 }
 
@@ -104,4 +104,79 @@ nav {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px 0;
   font-size: 45px;
+}
+
+
+
+.news {
+    display: flex;
+    color: #000;
+    height: 500px;
+  }
+
+  
+.news-left {
+    flex: 2;
+    position: relative;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    
+}
+
+.news-left .image-content {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.news-left .image-content img {
+  flex-basis: 50%;
+}
+
+.news-left .image-content .image-description {
+  flex-basis: 50%;
+  padding-left: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news-left .image-content .image-description .image-button {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.news-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.description2 ul li{
+  display: block;
+  width: 100%;
+  text-align: left;
+  list-style-type: circle;
+  position: relative;
+  padding: 15px 0;
+}
+
+.description2 ul li::before {
+  content: "\2022";
+  color: black;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.news-right h5{
+  text-transform: uppercase;
+}
+
+.description {
+    position: absolute;
+    right: 90px;
+    bottom: 0;
+    width: 100%;
 }
