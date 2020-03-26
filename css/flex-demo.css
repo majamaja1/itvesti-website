@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    border: 2px solid yellow;
+
+    /* Ovo align center ga stavlja u centru po X osi kada je direction column */
+    align-items: center;
+    /* flex-direction: column; */
+    /* Ovo justify center ga stavlja u centru po X osi kada je direction row */
+    justify-content: center;
+    /* flex-direction: row; */
+
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid green;
+}
+
+.box-left {
+    flex: 2;
+}
+
+.box-right {
+    flex: 1;
+}
+
+/*  */

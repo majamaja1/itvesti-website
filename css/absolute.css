@@ -1,0 +1,21 @@
+div {
+    width: 150px;
+    height: 150px;
+    
+}
+.container {
+    border: 2px solid pink;
+}
+
+.box1 {
+    border: 2px solid red;
+    margin: 10px;
+    position: relative;
+    /* sada je relative na red kontejneru i left 0 se odnosi na njega */
+}
+
+.box2{
+    border: 2px solid green;
+    position: absolute;
+    left: 0
+}
